@@ -1,7 +1,7 @@
 App Setup Steps: 
-  ☐ Create .gitignore file
-  ☐ Start a new rails app
-  ☐ Start a spec suite with the situations described below
+  ☐ Start a new rails app @5m
+  ☐ Start a spec suite with the situations described below @10m
+  ☐ Add the base JSON file supplied from the team @started(19-12-15 15:19)
 
 Growing in Tandem with Caretaker Chris (they/them):
   ☐ Needs to know which plants must be watered
@@ -38,6 +38,7 @@ Caretaker Chris selects a date:
   ☐ It should limit them to the 12 week schedule
 
 Archive:
+  ✔ Create .gitignore file @done(19-12-15 15:16) @project(App Setup Steps)
   ✔ Decide on Rails or Express for platform @5m @started(19-12-15 15:03) @done(19-12-15 15:04) @lasted(1m8s) @project(ToDo General)
   ✔ Make tasks based on up my understanding of challenge details @5m @started(19-12-15 14:08) @done(19-12-15 15:02) @lasted(54m46s) @project(ToDo General)
   ✔ Finish this task @est(30s) @started(19-12-15 14:02) @done(19-12-15 14:02) @lasted(39s) @project(Todo Setup)
