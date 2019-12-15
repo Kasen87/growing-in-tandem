@@ -1,0 +1,43 @@
+App Setup Steps: 
+  ☐ Create .gitignore file
+  ☐ Start a new rails app
+  ☐ Start a spec suite with the situations described below
+
+Growing in Tandem with Caretaker Chris (they/them):
+  ☐ Needs to know which plants must be watered
+  ☐ On a date they have selected
+  
+They want a README:
+  ☐ With information on how to run the code
+  ☐ With details about known issues to look out for
+  ☐ With details about known complexities to look out for
+  ☐ With details about the Roadmap for this project
+
+Caretaker Chris starts the app:
+  ☐ It should load successfully
+  ☐ It should let Caretaker Chris know when it's ready to accept input
+  ☐ It should gracefully handle any exceptions thrown by making it human-readable
+  ☐ It should let Caretaker Chris select a date to look at
+
+When the app is loading:
+  ☐ It should look for a file named `Apprentice_WeGrowInTandem_Data.json` in our present working directory
+    ☐ With success, it should read the contents of the file 
+    ☐ With failure, it should elevate the exception to Caretaker Chris
+
+It should determine the next 12 weeks' scheduling:
+    ☐ Excluding Sundays or Saturdays as watering days
+    ☐ Using the start_date (Monday, Dec 16th 2019)
+    ☐ Ending at the end_date (Sunday, March 15th 2019)
+
+When the app is finished loading:
+  ☐ It should prompt Caretaker Chris to select a date
+  ☐ It would be nice to render the current day by default
+
+Caretaker Chris selects a date:
+  ☐ It should display the plants that need to be watered
+  ☐ It should limit them to the 12 week schedule
+
+Archive:
+  ✔ Decide on Rails or Express for platform @5m @started(19-12-15 15:03) @done(19-12-15 15:04) @lasted(1m8s) @project(ToDo General)
+  ✔ Make tasks based on up my understanding of challenge details @5m @started(19-12-15 14:08) @done(19-12-15 15:02) @lasted(54m46s) @project(ToDo General)
+  ✔ Finish this task @est(30s) @started(19-12-15 14:02) @done(19-12-15 14:02) @lasted(39s) @project(Todo Setup)
