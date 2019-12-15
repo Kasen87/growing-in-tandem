@@ -11,6 +11,7 @@
 /db/*.sqlite3
 /db/*.sqlite3-journal
 /db/*.sqlite3-*
+.rspec
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -28,9 +29,14 @@
 # Ignore master key for decrypting credentials and more.
 /config/master.key
 
+# ENV
+.env
+.env.*
+
 /public/packs
 /public/packs-test
 /node_modules
+/coverage/
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
