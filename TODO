@@ -1,7 +1,5 @@
 App Setup Steps: 
-  ☐ Start a new rails app @5m
   ☐ Start a spec suite with the situations described below @10m
-  ☐ Add the base JSON file supplied from the team @started(19-12-15 15:19)
 
 Growing in Tandem with Caretaker Chris (they/them):
   ☐ Needs to know which plants must be watered
@@ -38,6 +36,8 @@ Caretaker Chris selects a date:
   ☐ It should limit them to the 12 week schedule
 
 Archive:
+  ✔ Start a new rails app @5m @started(19-12-15 15:22) @done(19-12-15 15:27) @lasted(5m4s) @project(App Setup Steps)
+  ✔ Add the base JSON file supplied from the team @started(19-12-15 15:19) @done(19-12-15 15:22) @lasted(3m11s) @project(App Setup Steps)
   ✔ Create .gitignore file @done(19-12-15 15:16) @project(App Setup Steps)
   ✔ Decide on Rails or Express for platform @5m @started(19-12-15 15:03) @done(19-12-15 15:04) @lasted(1m8s) @project(ToDo General)
   ✔ Make tasks based on up my understanding of challenge details @5m @started(19-12-15 14:08) @done(19-12-15 15:02) @lasted(54m46s) @project(ToDo General)
