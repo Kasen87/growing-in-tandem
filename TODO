@@ -14,9 +14,13 @@ Caretaker Chris starts the app:
   ☐ It should let Caretaker Chris select a date to look at
 
 When the app is loading:
-  ☐ It should look for a file named `Apprentice_WeGrowInTandem_Data.json` in our present working directory
-    ☐ With success, it should read the contents of the file 
-    ☐ With failure, it should elevate the exception to Caretaker Chris
+  ☐ It should make sure the plant data is already available @started(19-12-15 17:42)
+    ✔ Plants are a model since they store information. @started(19-12-15 17:42) @done(19-12-15 18:05) @lasted(23m11s)
+    ☐ It should look for a file named `Apprentice_WeGrowInTandem_Data.json` in our present working directory @started(19-12-15 17:42)
+      ☐ With success
+        ☐ It should read the contents of the file
+        ☐ It should create entries for the plants in the database
+      ☐ With failure, it should elevate the exception to Caretaker Chris
 
 It should determine the next 12 weeks' scheduling:
     ☐ Excluding Sundays or Saturdays as watering days
