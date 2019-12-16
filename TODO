@@ -14,13 +14,8 @@ Caretaker Chris starts the app:
   ☐ It should let Caretaker Chris select a date to look at
 
 When the app is loading:
-  ☐ It should make sure the plant data is already available @started(19-12-15 17:42)
-    ✔ Plants are a model since they store information. @started(19-12-15 17:42) @done(19-12-15 18:05) @lasted(23m11s)
-    ☐ It should look for a file named `Apprentice_WeGrowInTandem_Data.json` in our present working directory @started(19-12-15 17:42)
-      ☐ With success
-        ☐ It should read the contents of the file
-        ☐ It should create entries for the plants in the database
-      ☐ With failure, it should elevate the exception to Caretaker Chris
+  ☐ It should check if there are plant entries in the database already and if not, proceed below. Otherwise, skip the seeds.
+    ☐ With any failure, it should elevate the exception to Caretaker Chris for resolution
 
 It should determine the next 12 weeks' scheduling:
     ☐ Excluding Sundays or Saturdays as watering days
@@ -36,6 +31,12 @@ Caretaker Chris selects a date:
   ☐ It should limit them to the 12 week schedule
 
 Archive:
+  ✔ It should make sure the plant data is already available @started(19-12-15 17:42) @done(19-12-15 18:38) @lasted(56m11s) @project(When the app is loading)
+  ✔ It should look for a file named `Apprentice_WeGrowInTandem_Data.json` in our present working directory @started(19-12-15 17:42) @done(19-12-15 18:37) @lasted(55m40s) @project(When the app is loading)
+  ✔ With success @done(19-12-15 18:37) @project(When the app is loading)
+  ✔ It should read the contents of the file @done(19-12-15 18:37) @project(When the app is loading)
+  ✔ It should create entries for the plants in the database @done(19-12-15 18:37) @project(When the app is loading)
+  ✔ Plants are a model since they store information. @started(19-12-15 17:42) @done(19-12-15 18:05) @lasted(23m11s) @project(When the app is loading)
   ✔ It should load successfully @started(19-12-15 17:13) @done(19-12-15 17:23) @lasted(10m40s) @project(Caretaker Chris starts the app)
   ✔ It should render an index view for the Schedule. @started(19-12-15 17:13) @done(19-12-15 17:23) @lasted(10m38s) @project(When the app is loading)
   ✔ Install RSpec_rails gem for the spec suites listed below @10m @started(19-12-15 17:09) @done(19-12-15 17:09) @lasted(59s) @project(App Setup Steps)
