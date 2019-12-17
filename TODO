@@ -24,7 +24,7 @@ It should determine the next 12 weeks' scheduling:
 
 When the app is finished loading:
   ☐ It should prompt Caretaker Chris to select a date
-  ☐ It would be nice to render the current day by default
+  ✔ It would be nice to render the current day by default @done(19-12-15 18:50)
 
 Caretaker Chris selects a date:
   ☐ It should display the plants that need to be watered

@@ -1,2 +1,13 @@
-<h1>Schedule#index</h1>
-<p>Find me in app/views/schedule/index.html.erb</p>
+<h1>Watering Schedules</h1>
+<table>
+  <% @water_schedules.each do |schedule| %>
+
+    <% schedule[:schedule].each do |date| %>
+    <tr>
+      <td><%= date %></td>
+      <td><%= schedule[:name] %></td>
+    </tr>
+  <% end %>
+
+  <%end%>
+</table>
